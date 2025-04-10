@@ -53,7 +53,7 @@ onMounted(() => {
         <a-breadcrumb-item>List</a-breadcrumb-item>
         <a-breadcrumb-item>App</a-breadcrumb-item>
       </a-breadcrumb> -->
-      <div :style="{ background: '#fff', padding: '24px', minHeight: '280px' }">
+      <div :style="{ background: '#fff', padding: '24px', minHeight: '280px', overflow: 'hidden', height: '100%' }">
         <!-- 使用NuxtPage组件显示路由页面内容 -->
         <NuxtPage />
       </div>
